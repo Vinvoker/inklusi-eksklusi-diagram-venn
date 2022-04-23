@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Oswald&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('img/bg.jpg');
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    width: 50%;
+    border: 0.3rem solid black;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title-text {
+    font-weight: bold;
+}
+
+.member {
+    font-size: 0.9rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.content {
+    width: 70%;
+    border: 0.3rem solid black;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    color: red;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.futsal {
+    color: rgb(1, 197, 1);
+}
+
+.basket {
+    color: hsl(60, 84%, 36%)
+}
+
+.badminton {
+    color: rgb(235, 36, 36);
+}
+
+.bigger {
+    font-size: 1.1rem;
+    color: blue;
+}
+
+input {
+    font-size: 1.1rem;
+    border: 0;
+    width: 2rem;
+    border-bottom: 0.1rem solid black;
+    text-align: center;
+    background-color: lightgray;
+}
+
+p {
+    margin-block-start: 0.1px;
+    margin-block-end: 0.1px;
+}
+
+.answer {
+    font-size: 1.1rem;
+    border: 0.3rem solid black;
+    padding: 1rem 0 1rem 0;
+    background-color: lightgray;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
+    border: 0;
+    width: 7rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+img {
+    width: 20rem;
+}
+
+.venn {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.a {
+    left: 315px;
+    bottom: 85px;
+}
+
+.b {
+    left: 227px;
+    bottom: 240px;
+}
+
+.c {
+    left: 140px;
+    bottom: 85px;
+}
+
+.ab {
+    left: 287px;
+    bottom: 163px;
+}
+
+.ac {
+    left: 225px;
+    bottom: 70px;
+}
+
+.bc {
+    left: 170px;
+    bottom: 163px;
+}
+
+.abc {
+    left: 230px;
+    bottom: 140px;
+}
+
+.notabc {
+    left: 400px;
+    bottom: 50px;
+}
+
+.s {
+    left: 75px;
+    bottom: 270px;
+}
